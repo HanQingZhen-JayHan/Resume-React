@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -42,4 +41,49 @@
 
 .PrimaryColor {
   color: white;
+}
+
+.CardContainer {
+  flex-direction: column;
+  justify-self: flex-start;
+  border-radius: 4px;
+  padding: 16px;
+  margin-top: 20px;
+  min-width: 500px;
+}
+
+.flex-start {
+  justify-self: flex-start;
+}
+.btn-light {
+  background-color: #e6e6e6 !important;
+}
+
+.no-bullet {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+.filter-layout {
+  flex-direction: column;
+  justify-self: flex-start;
+}
+.filter-item {
+  width: 100%;
+  padding: 1em 1em;
+}
+li:hover {
+  background-color: #e6e6e6;
+}
+li.selected {
+  color: #e6e6e6;
+}
+
+#sort-dropdown {
+  background-color: #ffffff;
+  border: 0px;
+  border-bottom: 2px solid #282c34;
+  color: black;
+  border-radius: 0px;
+  box-shadow: none;
+  padding: 0px 0px 2px 0px;
 }
